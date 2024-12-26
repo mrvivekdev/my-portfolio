@@ -20,7 +20,7 @@ const About: React.FC = () => {
                 scroller: "body",
                 scrub:2,
                 // markers: true,
-                start: "top -10%",
+                start: "top -30%",
                 end: "top 20%",
             }
         })
@@ -28,7 +28,7 @@ const About: React.FC = () => {
 
     return(
         <>
-            <div id="ScrollTragger" className="h-screen w-screen bg-black flex justify-evenly items-center flex-col pt-0 overflow-x-hidden">
+            <div id="ScrollTragger" className="h-screen w-screen bg-black flex justify-evenly items-center flex-col pt-0 overflow-x-hidden overflow-y-hidden">
                 <h1 id="ScrollTraggerImage" className="select-none text-orange-200 text-2xl font-extrabold mt-10 lg:font-bold lg:text-5xl">About Me!</h1> 
                 <div className="h-full w-full bg-black flex flex-col justify-evenly lg:flex-row pt-0 mt-20 ml-24 mr-0 lg:mt-48">
                     <div id="ScrollTraggerImage" className="h-72 w-72 border-8 border-solid border-orange-200 rounded-3xl lg:h-3/5 lg:w-1/4">

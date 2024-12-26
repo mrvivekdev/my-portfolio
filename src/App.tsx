@@ -1,6 +1,7 @@
 import Landing from "./Component/LandingPage"
 import Scroll from './Component/ScrollPage'
 import About from "./Component/AboutMe"
+import Skills from "./Component/SkillsPage"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Landing />
       <Scroll />
       <About />
+      <Skills />
     </>
   )
 }
