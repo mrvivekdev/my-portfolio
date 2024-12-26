@@ -23,7 +23,7 @@ const Landing: React.FC = () => {
   return (
     <>
         <div className='flex justify-center items-center w-full h-20 '>
-            <h1 className='select-none text-2xl font-bold text-orange-200 lg:text-2xl cursor-pointer' id='H1Gsap'>VIVEK.DEV</h1>
+            <h1 className='select-none text-2xl font-bold text-orange-200 lg:text-2xl cursor-pointer line-through' id='H1Gsap'>VIVEK.DEV</h1>
         </div>
         <div className='flex items-center w-full h-screen'>
             <div className='w-1/3 h-3/5 ml-[20px] lg:ml-10 flex flex-col justify-center '>
