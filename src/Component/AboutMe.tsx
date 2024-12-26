@@ -20,7 +20,7 @@ const About: React.FC = () => {
                 scroller: "body",
                 scrub:2,
                 // markers: true,
-                start: "top -50%",
+                start: "top -10%",
                 end: "top 20%",
             }
         })
