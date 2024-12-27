@@ -35,7 +35,7 @@ const About: React.FC = () => {
                         <img src={Image} alt="MyImage" className="h-full w-full p-0 lg:h-full lg:w-full rounded-2xl"/>
                     </div>
                     <div id="ScrollTraggerImage" className="h-72 w-72 lg:h-2/4 lg:w-1/4 mt-10 lg:mt-8 ml-4">
-                        <span className="select-none text-l lg:text-4xl font-serif font-extrabold text-orange-200">
+                        <span className="select-none text-l lg:text-4xl font-serif font-extrabold text-orange-200 text-center">
                             Hi, I'm Vivek, a passionate and results-driven full-stack developer with a knack for building robust, user-centric web applications. With expertise in front-end and back-end technologies, I craft seamless digital experiences tailored to meet diverse needs.
                         </span>
                     </div> 
